@@ -3,7 +3,9 @@ from datetime import date
 from tradingagents.default_config import DEFAULT_CONFIG
 from tradingagents.graph.trading_graph import TradingAgentsGraph
 
+
 config = DEFAULT_CONFIG.copy()
+
 
 graph = TradingAgentsGraph(
     selected_analysts=["market", "news"],
